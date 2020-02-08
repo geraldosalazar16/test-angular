@@ -1,0 +1,23 @@
+  table {
+    width: 100%;
+  }
+  
+  th.mat-sort-header-sorted {
+    color: black;
+  }
+
+  .container {
+      margin: 16px;
+  }
+
+  .button-container {
+        padding: 8px;
+        display: flex;
+        width: 100%;
+        justify-content: flex-end;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -ms-box-sizing: border-box;
+        -o-box-sizing: border-box;
+        box-sizing: border-box;
+  }
