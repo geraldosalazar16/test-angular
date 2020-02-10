@@ -4,7 +4,7 @@
 
 export const environment = {
   production: false,
-  apiURL: 'http://citibikenyc.com'
+  apiURL: 'http://localhost:3001'
 };
 
 /*

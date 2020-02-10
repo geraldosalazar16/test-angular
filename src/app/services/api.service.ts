@@ -15,7 +15,7 @@ export class ApiService {
 
   async getStations() {
     try {
-      const response = await this.http.get<any>(`${environment.apiURL}/stations/json`).toPromise();
+      const response = await this.http.get<any>(`${environment.apiURL}/data`).toPromise();
       const stations: Station[] = response.stationBeanList.map(obj => {
         return {
           ...obj
